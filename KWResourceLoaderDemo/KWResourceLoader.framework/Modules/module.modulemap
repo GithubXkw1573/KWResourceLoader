@@ -1,0 +1,6 @@
+framework module KWResourceLoader {
+  umbrella header "KWResourceLoader.h"
+
+  export *
+  module * { export * }
+}

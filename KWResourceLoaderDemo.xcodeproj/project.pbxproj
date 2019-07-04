@@ -13,6 +13,13 @@
 		141126A322CDE2EF00CEAB10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141126A222CDE2EF00CEAB10 /* Assets.xcassets */; };
 		141126A622CDE2EF00CEAB10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141126A422CDE2EF00CEAB10 /* LaunchScreen.storyboard */; };
 		141126A922CDE2EF00CEAB10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 141126A822CDE2EF00CEAB10 /* main.m */; };
+		141126C022CDEB9800CEAB10 /* KWHttpInfomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 141126B222CDEB9800CEAB10 /* KWHttpInfomation.m */; };
+		141126C122CDEB9800CEAB10 /* KWResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 141126B322CDEB9800CEAB10 /* KWResourceLoader.m */; };
+		141126C222CDEB9800CEAB10 /* KWResourceDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 141126B622CDEB9800CEAB10 /* KWResourceDownloader.m */; };
+		141126C322CDEB9800CEAB10 /* KWLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 141126B822CDEB9800CEAB10 /* KWLog.m */; };
+		141126C422CDEB9800CEAB10 /* NSString+md5.m in Sources */ = {isa = PBXBuildFile; fileRef = 141126BB22CDEB9800CEAB10 /* NSString+md5.m */; };
+		141126C522CDEB9800CEAB10 /* KWFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 141126BC22CDEB9800CEAB10 /* KWFileManager.m */; };
+		141126C622CDEB9800CEAB10 /* KWResourceLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 141126BF22CDEB9800CEAB10 /* KWResourceLoadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		141126A522CDE2EF00CEAB10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141126A722CDE2EF00CEAB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141126A822CDE2EF00CEAB10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		141126B222CDEB9800CEAB10 /* KWHttpInfomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWHttpInfomation.m; sourceTree = "<group>"; };
+		141126B322CDEB9800CEAB10 /* KWResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWResourceLoader.m; sourceTree = "<group>"; };
+		141126B422CDEB9800CEAB10 /* KWFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWFileManager.h; sourceTree = "<group>"; };
+		141126B522CDEB9800CEAB10 /* NSString+md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+md5.h"; sourceTree = "<group>"; };
+		141126B622CDEB9800CEAB10 /* KWResourceDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWResourceDownloader.m; sourceTree = "<group>"; };
+		141126B722CDEB9800CEAB10 /* KWResourceLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWResourceLoadManager.h; sourceTree = "<group>"; };
+		141126B822CDEB9800CEAB10 /* KWLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWLog.m; sourceTree = "<group>"; };
+		141126B922CDEB9800CEAB10 /* KWHttpInfomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWHttpInfomation.h; sourceTree = "<group>"; };
+		141126BA22CDEB9800CEAB10 /* KWResourceDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWResourceDownloader.h; sourceTree = "<group>"; };
+		141126BB22CDEB9800CEAB10 /* NSString+md5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+md5.m"; sourceTree = "<group>"; };
+		141126BC22CDEB9800CEAB10 /* KWFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWFileManager.m; sourceTree = "<group>"; };
+		141126BD22CDEB9800CEAB10 /* KWResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWResourceLoader.h; sourceTree = "<group>"; };
+		141126BE22CDEB9800CEAB10 /* KWLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWLog.h; sourceTree = "<group>"; };
+		141126BF22CDEB9800CEAB10 /* KWResourceLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWResourceLoadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 		1411269822CDE2EA00CEAB10 /* KWResourceLoaderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				141126B122CDEB9800CEAB10 /* KWResourceLoader */,
 				1411269922CDE2EA00CEAB10 /* AppDelegate.h */,
 				1411269A22CDE2EA00CEAB10 /* AppDelegate.m */,
 				1411269C22CDE2EA00CEAB10 /* ViewController.h */,
@@ -69,6 +91,27 @@
 				141126A822CDE2EF00CEAB10 /* main.m */,
 			);
 			path = KWResourceLoaderDemo;
+			sourceTree = "<group>";
+		};
+		141126B122CDEB9800CEAB10 /* KWResourceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				141126BD22CDEB9800CEAB10 /* KWResourceLoader.h */,
+				141126B322CDEB9800CEAB10 /* KWResourceLoader.m */,
+				141126B722CDEB9800CEAB10 /* KWResourceLoadManager.h */,
+				141126BF22CDEB9800CEAB10 /* KWResourceLoadManager.m */,
+				141126BA22CDEB9800CEAB10 /* KWResourceDownloader.h */,
+				141126B622CDEB9800CEAB10 /* KWResourceDownloader.m */,
+				141126B422CDEB9800CEAB10 /* KWFileManager.h */,
+				141126BC22CDEB9800CEAB10 /* KWFileManager.m */,
+				141126B922CDEB9800CEAB10 /* KWHttpInfomation.h */,
+				141126B222CDEB9800CEAB10 /* KWHttpInfomation.m */,
+				141126B522CDEB9800CEAB10 /* NSString+md5.h */,
+				141126BB22CDEB9800CEAB10 /* NSString+md5.m */,
+				141126BE22CDEB9800CEAB10 /* KWLog.h */,
+				141126B822CDEB9800CEAB10 /* KWLog.m */,
+			);
+			path = KWResourceLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +186,14 @@
 			files = (
 				1411269E22CDE2EA00CEAB10 /* ViewController.m in Sources */,
 				141126A922CDE2EF00CEAB10 /* main.m in Sources */,
+				141126C422CDEB9800CEAB10 /* NSString+md5.m in Sources */,
 				1411269B22CDE2EA00CEAB10 /* AppDelegate.m in Sources */,
+				141126C522CDEB9800CEAB10 /* KWFileManager.m in Sources */,
+				141126C322CDEB9800CEAB10 /* KWLog.m in Sources */,
+				141126C122CDEB9800CEAB10 /* KWResourceLoader.m in Sources */,
+				141126C622CDEB9800CEAB10 /* KWResourceLoadManager.m in Sources */,
+				141126C222CDEB9800CEAB10 /* KWResourceDownloader.m in Sources */,
+				141126C022CDEB9800CEAB10 /* KWHttpInfomation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +337,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V9XKRUWLE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KWResourceLoaderDemo",
+				);
 				INFOPLIST_FILE = KWResourceLoaderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xukaiwei.KWResourceLoaderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,10 +362,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V9XKRUWLE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KWResourceLoaderDemo",
+				);
 				INFOPLIST_FILE = KWResourceLoaderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xukaiwei.KWResourceLoaderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
