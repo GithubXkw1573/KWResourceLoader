@@ -29,7 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<KWResourceDownloaderDelegate> delegate;
 
-
 /**
  分片下载
 

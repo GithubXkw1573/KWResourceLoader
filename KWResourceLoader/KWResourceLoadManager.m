@@ -137,8 +137,14 @@
         AVAssetResourceLoadingRequest *nextReq = self.loadRequestArray[index];
         [self beginLoadResource:nextReq];
     }else {
-        [KWLog kwLog:@"没有要加载的资源了，空闲状态"];
-        self.isRunning = NO;
+        if (request == nil && self.loadRequestArray.count) {
+            //说明是切换了视频资源，开始加载新的视频
+            AVAssetResourceLoadingRequest *nextReq = [self.loadRequestArray firstObject];
+            [self beginLoadResource:nextReq];
+        }else {
+            [KWLog kwLog:@"没有要加载的资源了，空闲状态"];
+            self.isRunning = NO;
+        }
     }
 }
 
